@@ -2,4 +2,6 @@
 
 let kittens = ["Milo", "Otis", "Garfield"];
 
-const destructivelyAppendKitten()
+function destructivelyAppendKitten(Milo, Otis, Garfield) {
+  return kittens.shift[1];
+}
