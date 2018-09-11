@@ -3,5 +3,5 @@
 let kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(Milo, Otis, Garfield) {
-  return kittens.shift[1];
+  return kittens.shift('Ralph');
 }
